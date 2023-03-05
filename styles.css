@@ -130,3 +130,39 @@ form button{
     border: solid 2px #40a3a8;
     
 }
+
+/* ADICIONALES- Valoraciones*/
+
+.Adicionales{
+    background-color: #e2c39a;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+}
+.opiniones{
+    display:flex;
+    justify-content: center;
+    padding: 2em;
+    
+
+}
+.adicionales h1{
+    font-size:larger;
+}
+.opiniones div{
+    display:flex;
+    width: 80%;
+    gap:2px;
+    
+}
+ .opiniones article{
+    flex-grow: 1;
+    border:2px solid white;
+
+
+ }
+ .opiniones article img{
+    width: 100%;
+ }
