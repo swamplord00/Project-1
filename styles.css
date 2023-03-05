@@ -148,8 +148,8 @@ form button{
     
 
 }
-.adicionales h1{
-    font-size:larger;
+.Adicionales h1{
+    padding-top: 2em;
 }
 .opiniones div{
     display:flex;
@@ -158,9 +158,21 @@ form button{
     
 }
  .opiniones article{
-    flex-grow: 1;
+    
     border:2px solid white;
+    width: 200px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
 
+
+ }
+ .opiniones article:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity:1;
+    filter: contrast(120%);
 
  }
  .opiniones article img{
