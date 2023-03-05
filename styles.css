@@ -166,7 +166,6 @@ form button{
     opacity: .8;
     transition: .5s ease;
 
-
  }
  .opiniones article:hover{
     cursor: crosshair;
@@ -178,3 +177,11 @@ form button{
  .opiniones article img{
     width: 100%;
  }
+
+
+/* FOOTER */
+
+footer{
+    background-color: #40a3a8;
+    height: 300px;
+}
