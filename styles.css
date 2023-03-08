@@ -228,4 +228,9 @@ footer{
 .rrss a{
     
     width: fit-content;
+
+}
+.rrss img{
+    height:30px;
+    padding:10px;
 }
