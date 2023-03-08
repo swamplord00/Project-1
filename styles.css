@@ -202,35 +202,54 @@ footer{
 .footcontainer section:first-child{
     padding:0;
 }
-.Logo{
+.logo{
+    flex-grow: 1;
+}
+.Logo div{
     display:flex;
     flex-direction: column;
     align-items:center;
     flex-grow: 1;
 }
-.logo p{
+.logo div p{
     font-family: "Lobster Two", cursive;
     text-align: center;
     color:antiquewhite;
     font-size:xx-large;
 }
 .columnas{
-    flex-grow: 2;
+    border-left: 1px solid #70b2b5;
+    border-right: 1px solid #70b2b5;
+    display:flex;
+    justify-content:start;
+    flex-grow:3;
     
 }
+.columnas div ul{
+    list-style-type:square;
+    
+    
+}
+.columnas div ul li a{
+    text-decoration: none;
+    color:antiquewhite;
+}
 .rrss{
+    flex-grow: 1;
+}
+.rrss div{
     display:flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
     
 }
-.rrss a{
+.rrss div a{
     
     width: fit-content;
 
 }
-.rrss img{
+.rrss div img{
     height:30px;
     padding:10px;
 }
