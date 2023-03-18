@@ -140,11 +140,11 @@ form button{
 
 /* CATALOGO 2 */
 
-.Carrusel{
+.Revista{
     width: 100%;
     padding-top: 70px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .catalog {
     padding: 50px 0px 50px 0px;
