@@ -105,6 +105,16 @@ form button{
     border: solid 2px #40a3a8;
     
 }
+.tarjeta img{
+    width:300px;
+    height: 300px;
+}
+.tarjeta article h3{
+    padding-bottom: 12px;
+}
+.tarjeta article p{
+    text-align: justify;
+}
 
 /* ADICIONALES- Valoraciones*/
 
@@ -151,4 +161,7 @@ form button{
  }
  .opiniones article img{
     width: 100%;
+ }
+ .opiniones article p{
+    padding: 24px 0px 4px 4px;
  }
