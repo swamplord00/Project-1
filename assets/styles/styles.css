@@ -144,13 +144,15 @@ form button{
     width: 100%;
     padding-top: 70px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .catalog {
     padding: 50px 0px 50px 0px;
     width: 75%;
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+
     gap:8px 8px;
   }
   
@@ -158,6 +160,7 @@ form button{
     border:2px solid #2c7478;
     background-color: #f0e2cf;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     color:#2c7478;
   }
@@ -173,11 +176,8 @@ form button{
   }
   
   .description {
-    background-color: ##f0e2cf;
-    
-    padding: 10px;
-
-    bottom: 0;
+    background-color: #f0e2cf;
+    padding: 5px;
     
   }
   
