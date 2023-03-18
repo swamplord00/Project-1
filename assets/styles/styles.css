@@ -181,37 +181,7 @@ form button{
     
   }
   
-  .arrows {
-    position: relative;
-    margin-top: 20px;
-    text-align: center;
-    z-index: 2;
-  }
   
-  .left-arrow, .right-arrow {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  .left-arrow {
-    left: 0;
-    transform: translateX(-50%);
-  }
-  .left-arrow:hover {
-    transform:scale(1.1);
-  }
-  
-  .right-arrow {
-    right: 0;
-    transform: translateX(50%);
-  }
-  .right-arrow:hover {
-    transform: scale(1.1);
-  }
   
 
 /* ADICIONALES- Valoraciones*/
