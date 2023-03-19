@@ -71,7 +71,7 @@ form button{
 
 }
 
-.portada {
+.portada  {
     
     
     flex-grow: 1;
@@ -82,10 +82,11 @@ form button{
 
 }
 .portada img{
-    width: 500px;
+    width:100%;
     height: auto;
     
 }
+
 
 
 /* BLOG */
@@ -115,8 +116,9 @@ form button{
 }
 .tarjetero{
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap:3px;
+    
     
     
 }
@@ -126,7 +128,7 @@ form button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding:1em;
     flex-wrap: wrap;
     
 }
