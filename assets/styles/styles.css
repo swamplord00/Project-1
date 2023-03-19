@@ -206,12 +206,14 @@ form button{
     display:flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     gap:2em;
 }
 .opiniones{
     display:flex;
     justify-content: center;
     padding: 2em;
+    flex-wrap: wrap;
     
 
 }
