@@ -163,8 +163,14 @@ form button{
     width: 100%;
     padding-top: 70px;
     display:flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+.Revista h1{
+    color:#2c7478;
+    padding: 1em;
 }
 .catalog {
     padding: 50px 0px 50px 0px;
