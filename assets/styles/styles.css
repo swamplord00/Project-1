@@ -2,16 +2,19 @@
 /* MAIN */
 
 .Jumbotron{
-    height: 500px;
+    
     display:flex; 
+    flex-wrap: wrap;
     background-color: #e7c497;
     color:white;
+    padding-top: 60px;
     
-    
+
 }
 .Registro{
-    height: 500px;
+    
     display:flex; 
+    flex-wrap: wrap;
     background-color: rgb(235, 211, 200);
     color:white;
     
@@ -19,14 +22,18 @@
 }
 .Presentacion{
     flex-grow: 8;
+    background-color:#e7c497;
     display:flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 100px 0px 50px 0px;
 
 }
 .ContenedorP{
     
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     
@@ -63,16 +70,23 @@ form button{
     border-radius: 8px;
 
 }
-.Portada{
-    
-    display:flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-}
-.Jumbotron img{
 
+.portada {
+    
+    
     flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+
 }
+.portada img{
+    width: 500px;
+    height: auto;
+    
+}
+
 
 /* BLOG */
 
@@ -80,37 +94,40 @@ form button{
 
 .Blog {
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding:3em;
+    
 
 }
-.TProductos{
-    width: 80%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-}
+
 .Productos{
+    
     width: 80%;
     display:flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 .Productos h1{
     padding-bottom: 3em;
+    color: #2c7478;
 }
 .tarjetero{
-    display:flex;
-    justify-content: center;
-    gap:2px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap:3px;
+    
     
 }
 .tarjeta{
-    width:30%;
-    padding: 2em;
+    flex-grow: 1;
     border: solid 2px #40a3a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex-wrap: wrap;
     
 }
 .tarjeta img{
@@ -180,9 +197,6 @@ form button{
     padding: 5px;
     
   }
-  
-  
-  
 
 /* ADICIONALES- Valoraciones*/
 
