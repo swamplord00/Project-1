@@ -15,6 +15,49 @@ header{
     width: 99%;
     z-index: 2;
 }
+.SeccionesMenuP nav{
+    display:flex;
+
+}
+#btn-menu{
+    display:none;
+}
+header label{ 
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border-left:1px solid #85ced2
+}
+header label:hover{
+    cursor:pointer;
+    background-color: #84cbcf;
+}
+header img{
+    width: 40px;
+    margin-right: 20px;
+}
+@media (max-width:768px){
+    header label{
+        display:block;
+    }
+    .LoginMenuP {
+        
+       display:none;
+        
+    }
+    .SeccionesMenuP nav{
+        display:none;    
+    }
+    
+}
+
+.SeccionesMenuP{
+    margin:0;
+    padding: 0;
+    display:flex;
+    
+}
 .LogoMenuP p{
     color:white;
     font-family: 'Lobster Two', cursive;
