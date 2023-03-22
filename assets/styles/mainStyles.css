@@ -6,49 +6,76 @@
 /*  HEADER */
 header{
     background-color: #40a3a8;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 1em;
-    padding-right: 1em;
     position:fixed;
-    width: 99%;
+    width: 100%;
     z-index: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
-.SeccionesMenuP nav{
-    display:flex;
+.logoMenuP nav{
+    display:block;
 
 }
 #btn-menu{
     display:none;
 }
 header label{ 
-    display: none;
+    display:none;
     width: 30px;
     height: 30px;
-    padding: 20px;
-    border-left:1px solid #85ced2
+    padding: 10px;
+    
 }
 header label:hover{
     cursor:pointer;
     background-color: #84cbcf;
 }
 header img{
-    width: 40px;
-    margin-right: 20px;
+    width: 30px;
+    
+}
+.menu ul{
+    margin:0;
+    list-style: none;
+    padding:0;
+    display:flex;
+}
+.menu li{
+    
+}
+.menu li:hover{
+    background-color: #84cbcf;
+}
+.menu li a{
+    display:block;
+    padding:15px 20px;
+    text-decoration: none;
 }
 @media (max-width:768px){
     header label{
         display:block;
     }
-    .LoginMenuP {
-        
-       display:none;
+    .menu {
+        position:absolute;
+        background: #40a3a8;
+        width: 30%;
+        margin-right: -30%;
+        margin-top: 50px;
+        transition:all 0.5s;
         
     }
-    .SeccionesMenuP nav{
-        display:none;    
+    .menu ul{
+        flex-direction: column;    
     }
+    .menu li{
+        border-bottom: 1px solid #fff;
+    }
+    #btn-menu:checked ~ .menu{
+        margin:0;
+        margin-top: 50px;
+    }
+
     
 }
 
